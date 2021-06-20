@@ -51,7 +51,7 @@ monitor = peripheral.find("monitor")
      return true    
     end
     print("what file do you want to render")
-imageName = input()
+imageName = read()
 img = fs.open(imageName,"r")
 image['resolution']['x'] = tonumber(img.readLine())
 image['resolution']['y'] = tonumber(img.readLine())
