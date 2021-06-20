@@ -60,4 +60,4 @@ display(image,1,1)
 while true do
 end
 
-   
+    
